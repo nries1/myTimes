@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+span {
+  margin: 0px 5px 0px 5px;
+}
+
+#logo {
+  margin: 0px 0px 0px 5px;
+}
+
+#sciNav {
+  margin: 0px 10px 0px 5px;
+}
