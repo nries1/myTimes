@@ -1,6 +1,11 @@
+/* Header Styling */
+
 .header {
   display: flex;
   justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 nav {
@@ -13,9 +18,27 @@ span {
 }
 
 #logo {
-  margin: 0px 0px 0px 5px;
+  margin: 0px 0px 0px 20px;
+  color: MediumAquamarine;
 }
 
 #sciNav {
-  margin: 0px 10px 0px 5px;
+  margin: 0px 20px 0px 5px;
+}
+
+.main {
+  display: flex;
+}
+
+/* Main Container Styling
+
+Left Column */
+
+.main {
+  display: flex;
+  border: 5px;
+}
+
+.left {
+  width: 630px;
 }
