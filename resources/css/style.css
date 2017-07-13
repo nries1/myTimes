@@ -27,25 +27,37 @@ span {
 }
 
 .main {
-  display: flex;
+  display: inline-flex;
   border: 1px solid black;
+
 }
 
 /* Main Container Styling
 
 Left Column */
 
-
+p {
+  margin: 0px 0px 0px 0px;
+}
 
 .left {
   border: 1px solid black;
   width: 630px;
   margin: 40px 0px 10px 0px;
-  display: flex;
-  flex-direction: column;
-  align-content: flex-start;
 }
 
 .imageHeadline {
   border: 1px solid black;
+}
+
+.article {
+  border: 1px solid black;
+}
+
+/* Middle Column */
+
+.middle {
+  width: 300px;
+  border: 1px solid black;
+  margin: 40px 0px 10px 30px;
 }
