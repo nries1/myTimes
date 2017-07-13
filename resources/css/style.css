@@ -29,7 +29,6 @@ span {
 .main {
   display: flex;
   border: 1px solid black;
-  justify-content: flex-start;
 }
 
 /* Main Container Styling
@@ -41,6 +40,10 @@ Left Column */
 .left {
   border: 1px solid black;
   width: 630px;
+  margin: 40px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
 }
 
 .imageHeadline {
