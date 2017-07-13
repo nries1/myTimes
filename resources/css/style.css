@@ -28,17 +28,21 @@ span {
 
 .main {
   display: flex;
+  border: 1px solid black;
+  justify-content: flex-start;
 }
 
 /* Main Container Styling
 
 Left Column */
 
-.main {
-  display: flex;
-  border: 5px;
-}
+
 
 .left {
+  border: 1px solid black;
   width: 630px;
+}
+
+.imageHeadline {
+  border: 1px solid black;
 }
