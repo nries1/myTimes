@@ -6,6 +6,7 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
 }
 
 nav {
@@ -29,7 +30,6 @@ span {
 
 .main {
   display: flex;
-  border: 1px solid black;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -40,12 +40,26 @@ span {
 }
 
 .article {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
 }
 
+#lowerLeft {
+  display: flex;
+  flex-direction: row;
+}
 
+#orca {
+  margin: 0px 25px 0px 0px;
+}
+
+#orca p, #burger p {
+  margin: 0px 0px 70px 0px;
+}
+
+#concert p {
+  margin: 0px 0px 30px 0px;
+}
 
   /* Left Column */
 
@@ -54,7 +68,6 @@ p {
 }
 
 .left {
-  border: 1px solid black;
   width: 630px;
   margin: 40px 0px 0px 0px;
 
@@ -69,13 +82,11 @@ p {
 
 .middle {
   width: 300px;
-  border: 1px solid black;
   margin: 40px 0px 0px 30px;
 }
 
 .right {
   width: 240px;
-  border: 1px solid black;
   margin: 40px 0px 0px 30px;
 }
 
@@ -115,4 +126,8 @@ p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.middle .blurb, .imageHeadline {
+  margin-bottom: 20px;
 }
